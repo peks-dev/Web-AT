@@ -1,0 +1,19 @@
+/*section-proyects*/
+    .underline-detail{
+        color: var(--color-white);
+        text-decoration: underline;
+        font-size: var(--fs-details);
+    }
+    .button-proyect{
+        width: 100%;
+    }
+    #icon-support{
+        cursor: pointer;
+        transition: all 0.5 ease;
+    }
+    #icon-support:hover{    
+        transform: scale(1.2);
+
+    }
+
+    

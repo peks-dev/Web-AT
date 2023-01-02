@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aguilar Talleres Carpinteria</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Julius+Sans+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header--main">
+            <nav class="main-nav" id="main-nav">
+                <a class="logo-site" href="#">
+                            <img src="./assets/Logos-AT/aguilar-talleres-logo-blanco.svg"></img>  
+                 </a>  
+                <button class="main-nav__burger">
+                        <img src="./assets/svgs/open-menu.svg" alt="" class="main-nav__burger-icon" id="menu__icon-open">
+                        <img src="./assets/svgs/close-menu.svg" alt="" class="main-nav__burger-icon" id="menu__icon-close">
+                </button>
+                <ul class="main-nav__links">
+                    <li>
+                        <a href="#gallery">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="#services">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#proyects">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
+                    <li>
+                            <img id="icon-support" class="icon" src="./assets/svgs/support.svg" alt="pregunta icono">
+                       
+                    </li>
+                </ul>
+                <button class="main-nav__button">
+                     <a href="https://landbot.online/v3/H-1445994-ADU34TUSG3ATDREP/index.html">Cotizar</a>         
+                </button>
+            </nav> 
+            <section id="welcome">
+                <header>
+                        <h1 class="title title--white">
+                            Carpintería <br>
+                            <span class="main main--white">Aguilar Talleres</span>
+                        </h1>
+                        <p class="details details--white">
+                            Mérida Yucatán
+                        </p>
+                </header>
+                <p class="body-text body-text--white">
+                        Viste tu casa, departamento o tu espacio favorito con muebles personalizados de alta calidad hechos en madera 
+                </p>
+                <ul class="welcome__logos">
+                        <li class="welcome__logos-item">
+                            <img src="./assets/svgs/logos/Anahuac_logo.svg" alt="Anahuac logo">
+                        </li>
+                        <li class="welcome__logos-item">
+                            <img src="./assets/svgs/logos/eldios_bra_icono.svg" alt="Eladios logo">
+                        </li>
+                        <li class="welcome__logos-item">
+                            <img src="./assets/svgs/logos/hospital_faro_mayab_icon.svg" alt="Hospital faro logo">
+                        </li>
+                        <li class="welcome__logos-item">
+                            <img src="./assets/svgs/logos/lapalapa_icon.svg" alt="lapalapa logo">
+                        </li>
+                </ul>
+                <button class="welcome__button">
+                        <a>Explorar</a>
+                </button>
+                <div class="icon">
+                        <img src="./assets/svgs/down-arrow.svg" alt="flecha abajo">
+                </div>
+           </section>  
+    </header>
+    <main>
+       <section id="gallery" class="section--free-height">
+        <header class="header--left">
+            <h2 class="main">Galeria</h2>
+            <span class="title">de muebles</span>
+        </header>
+            <div class="gallery">
+                <div class="gallery__filters">
+                    <div class="gallery__filters-wrapper">
+                        <div class="gallery__filter" id="botones-filtro">
+                            <button id="todos" class="gallery__filter-button filter-button--active" data-category="todos">
+                                Todos
+                            </button>
+                            <button class="gallery__filter-button" data-category="puertas">
+                                Puertas
+                            </button>
+                            <button class="gallery__filter-button" data-category="closets">
+                                Closets
+                            </button>
+                            <button class="gallery__filter-button" data-category="camas">
+                                Camas
+                            </button>
+                            <button class="gallery__filter-button" data-category="cocinas">
+                                Cocinas
+                            </button>
+                            <button class="gallery__filter-button" data-category="comedores">
+                                Comedores
+                            </button>
+                            <button class="gallery__filter-button" data-category="baños">
+                                Baños
+                            </button>
+                            <button class="gallery__filter-button" data-category="escritorios">
+                                Escritorios
+                            </button>
+                            <button class="gallery__filter-button" data-category="cajoneras">
+                                Cajoneras
+                            </button>
+                            <button class="gallery__filter-button" data-category="tvs">
+                                Tv
+                            </button>
+                            <button class="gallery__filter-button" data-category="otros">
+                                Otros
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__imgs gutterless" id="gallery-imgs-container">  
+                </div>
+                <button id="boton-cargar" class="button">
+                    <p class="button__text">Mostrar más</p>
+                </button>
+            </div>
+            <div class="lightbox">
+                
+                    <button class="lightbox__button">
+                        <img class="icon icon--lightbox"src="./assets/svgs/close-menu.svg" alt="boton cerrar">
+                    </button>
+                    <picture class="lightbox__img">
+                        <img class="lightbox__img-item" src="./assets/imgs-trabajos/comedores/comedor-1.jpg" alt="comedor">
+                    </picture>
+
+        
+                
+            </div>
+       </section>
+       <section id="woods" class="section--free-height">
+            <header>
+                <h2 class="main">Maderas<br> 
+                    <span class="title">del momento</span>
+                </h2>
+                <p class="details details--hide">selecciona para ver detalles</p>
+            </header>
+            <ul class="woods_wrapp">
+                <li class="woods__wrapp-item">
+                    <img class="woods__wrapp-item-img" src="./assets/woods/pino.jpg" loading="lazy" alt="Foto madera de Pino">
+                    <p class="woods__wrapp-item-text">Pino</p>
+                </li>
+                <li class="woods__wrapp-item">
+                    <img class="woods__wrapp-item-img" src="./assets/woods/cedro.jpg" loading="lazy" alt="Foto madera de Cedro" >
+                    <p class="woods__wrapp-item-text">Cedro</p>
+                </li>
+                <li class="woods__wrapp-item">
+                    <img class="woods__wrapp-item-img" src="./assets/woods/tzalam.jpg" loading="lazy" alt="Foto madera de Tzalam" >
+                    <p class="woods__wrapp-item-text">Tzalam</p>
+                </li>
+                <li class="woods__wrapp-item">
+                    <img class="woods__wrapp-item-img" src="./assets/woods/caobilla.jpg" loading="lazy" alt="Foto madera de Caobilla">
+                    <p class="woods__wrapp-item-text">Caobilla</p>
+                </li>
+                <li class="woods__wrapp-item">
+                    <img class="woods__wrapp-item-img" src="./assets/woods/parota.jpg" loading="lazy" alt="Foto madera de Parota">
+                    <p class="woods__wrapp-item-text">Parota</p>
+                </li>
+            </ul>
+       </section>
+       <section id="services">
+        <header>
+            <h2 class="main">Servicios</h2>   
+        </header>
+        <div class="cards">
+            <ul class="cards__container">
+                <li class="cards__container-item">
+                    <div class="cards__container-item-content">
+                        <h3 class="title title--white">Fabricacion</h3>
+                        <p class="body-text body-text--white">Construimos tu mueble con la madera, diseño, color y tamaño justo </p>
+                    </div>
+                </li> 
+                <li class="cards__container-item">
+                    <div class="cards__container-item-content">
+                        <h3 class="title title--white">Residencial</h3>
+                        <p class="body-text body-text--white">Creamos un conjunto de muebles para vestir una sección o toda tu casa  </p>
+                    </div>
+                </li>
+                <li class="cards__container-item">
+                    <div class="cards__container-item-content">
+                        <h3 class="title title--white">Empresas</h3>
+                        <p class="body-text body-text--white">Grandes proyectos para negocios, edificios hasta constructoras </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+       </section>
+       <section id="process" class="section--process">
+            <header>
+                <h2 class="main">Proceso</h2>
+            </header>
+           <ol class="process">
+               <li class="process__step">
+                   <div class="process__step-text">
+                       <h3 class="title title--process">Contacto</h3>
+                       <p class="body-text body-text--process">Nos explicas a detalle tu proyecto para entenderlo</p>
+                   </div>
+                   <div class="process__step-divider">
+                       <span class="process__step-divider-item">Paso</span>
+                       <span class="process__step-divider-item">01</span>
+                       <span class="process__step-divider-item"></span>
+                   </div>
+                   <div class="process__step-icon">
+                       <img src="./assets/svgs/contacto.svg" alt="Contacto" class="process__step-icon-svg">
+                   </div>
+               </li>
+               <li class="process__step">
+                   <div class="process__step-text process__step-text--rigth">
+                       <h3 class="title title--process">Propuesta</h3>
+                       <p class="body-text body-text--process">Recibes una cotización junto con un render 3D</p>
+                   </div>
+                   <div class="process__step-divider">
+                       <span class="process__step-divider-item">Paso</span>
+                       <span class="process__step-divider-item">02</span>
+                       <span class="process__step-divider-item"></span>
+                   </div>
+                   <div class="process__step-icon">
+                       <img src="./assets/svgs/propuesta.svg" alt="Contacto" class="process__step-icon-svg">
+                   </div>
+               </li>
+               <li class="process__step">
+                   <div class="process__step-text">
+                       <h3 class="title title--process">Anticipo</h3>
+                       <p class="body-text body-text--process">Realizas el primer pago para comprar la materia prima</p>
+                   </div>
+                   <div class="process__step-divider">
+                       <span class="process__step-divider-item">Paso</span>
+                       <span class="process__step-divider-item">03</span>
+                       <span class="process__step-divider-item"></span>
+                   </div>
+                   <div class="process__step-icon">
+                       <img src="./assets/svgs/anticipo.svg" alt="Contacto" class="process__step-icon-svg">
+                   </div>
+               </li>
+               <li class="process__step">
+                   <div class="process__step-text process__step-text--rigth">
+                       <h3 class="title title--process ">Fabricado</h3>
+                       <p class="body-text body-text--process">Construimos y pintamos todo lo necesario en el taller</p>
+                   </div>
+                   <div class="process__step-divider">
+                       <span class="process__step-divider-item">Paso</span>
+                       <span class="process__step-divider-item">04</span>
+                       <span class="process__step-divider-item"></span>
+                   </div>
+                   <div class="process__step-icon">
+                       <img src="./assets/svgs/fabricacion.svg" alt="Contacto" class="process__step-icon-svg">
+                   </div>
+               </li>
+               <li class="process__step">
+                   <div class="process__step-text">
+                       <h3 class="title title--process">Entrega</h3>
+                       <p class="body-text body-text--process">Vamos a instalar o descargar tus muebles sin que tu muevas un dedo</p>
+                   </div>
+                   <div class="process__step-divider">
+                       <span class="process__step-divider-item">Paso</span>
+                       <span class="process__step-divider-item">05</span>
+                       
+                   </div>
+                   <div class="process__step-icon">
+                       <img src="./assets/svgs/entrega.svg" alt="Contacto" class="process__step-icon-svg">
+                   </div>
+               </li>
+           </ol>
+       </section>
+       <section id="proyects">
+            <div class="slider">
+                <header class="slider__header">
+                    <h2 class="main main--white">Proyectos</h2>
+                    <div class="slider__dotes">
+                        <div class="slider__dotes-item slider__dotes-item--active "></div>
+                        <div class="slider__dotes-item"></div>
+                        <div class="slider__dotes-item"></div>
+                    </div>
+                </header>
+                <ul class="slider__cards">
+                    <li class="slider__cards-item">
+                        <div class="slider__card-content">
+                            <h3 class="title title--white">Consultorio</h3>
+                            <div>
+                                <p class="details details--white details--proyects">Servicio: <span class="underline-detail">Vestido</span></p>
+                                <p class="details details--white details--proyects">Madera: <span class="underline-detail">Cedro</span></p>
+                            </div>
+                            <p class="body-text body body-text--white">Ayudamos a que una de nuestras clientas vistiera su negocio con un conjunto de muebles para poder ignaurarlo y ponerlo en marcha</p>
+                            <button class="button button--left">
+                                <p class="button__text button-proyect">Ver más</p>
+                            </button>
+                        </div>
+                    </li>   
+                    <li class="slider__cards-item">
+                        <div class="slider__card-content">
+                            <h3 class="title title--white">Orion Bussines Hub</h3>
+                            <div>
+                                <p class="details details--white details--proyects">Servicio: <span class="underline-detail">Empresa</span></p>
+                                <p class="details details--white details--proyects">Madera: <span class="underline-detail">Tzalam</span></p>
+                            </div>
+                            <p class="body-text body body-text--white">Tuvimos la oportunidad de trabajar en uno de los mas recientes y exoticos edificios dentro de la ciudad que tiene la finalidad de rentar oficinas gracias a una arquitecta que llego con el proyecto de vestir una de estas ultimas</p>
+                            <button class="button button--left">
+                                <p class="button__text button-proyect">Ver más</p>
+                            </button>
+                        </div>
+                    </li>   
+                    <li class="slider__cards-item">
+                        <div class="slider__card-content">
+                            <h3 class="title title--white">Alacena esquinero</h3>
+                            <div>
+                                <p class="details details--white details--proyects">Servicio: <span class="underline-detail">Fabricación</span></p>
+                                <p class="details details--white details--proyects">Madera: <span class="underline-detail">Parota</span></p>
+                            </div>
+                            <p class="body-text body body-text--white">Construimos este mueble para un cliente que decidio hacerle un upgrade a su cocina para dejarla más bonita y práctica a la vez</p>
+                            <button class="button button--left">
+                                <p class="button__text button-proyect">Ver más</p>
+                            </button>
+                        </div>
+                    </li>   
+                </ul>
+                <article class="slider__modal"> 
+                    <button class="slider__modal-close">
+                    </button>
+                    <div class="slider__modal-container">
+                        <header>
+                            <h1 id="proyect-name" class="main">Nombre del proyecto</h1>
+                        </header>
+                        <div class="modal-container__content">
+                            <div class="modal-container__description">
+                                <img src="./assets/svgs/proyect-icon.svg" alt="icono de carpeta">
+                                <h2 class="title">descripción</h2>
+                            </div>
+                            <p id="description-proyect" class="body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sunt quae, expedita molestiae quis quas doloremque reprehenderit qui in deserunt nostrum molestias vel. Animi porro eius, recusandae corrupti odio quo.</p>
+                            <div class="modal-container__woods">
+                                <h3>Maderas usadas</h3>
+                                <figure>
+                                    <img id="img-wood" src="./assets/woods/caobilla.jpg" alt="foto de la madera caobilla">
+                                    <figcaption id="name-wood">Caobilla</figcaption>
+                                </figure>   
+                            </div>
+                        </div>
+                        <h2 class="title">Imagenes</h2>
+                        <div id="modal-container-gallery" class="modal-container__gallery">
+                        </div>
+                    </div>
+                </article>
+                <button id="arrow-left" class="slider__arrow slider__arrow--left" >
+                    <img src="./assets/svgs/down-arrow.svg" alt="icono flecha izquierda">
+                </button>
+                <button id="arrow-right" class="slider__arrow slider__arrow--right">
+                    <img src="./assets/svgs/down-arrow.svg" alt="icono flecha derecha">
+                </button>
+              
+            </div>
+       </section>      
+       <section id="faqs" class="section--free-height">
+            <header>
+                <h2 class="main">Preguntas<br>
+                <span class="title">frecuentes</span></h2>
+            </header>
+            <ul class="accordeon">
+                <li class="accordeon__toggle">
+                    <h3 class="h3">Pagos <img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h3>
+                    <div class="accordeon__toggle-sub">
+                        <h4 class="h4">¿Que métodos de pago aceptan? <img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h4>
+                        <p>Aceptamos transferencias bancarias, efectivo y pagos por paypal</p>
+                    </div>    
+                    <div class="accordeon__toggle-sub">
+                        <h4 class="h4">¿De cuanto es el anticipo? <img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h4>
+                        <p>Se pide el 60% sobre el total del trabajo para empezar</p>
+                    </div>
+                </li>
+                <li class="accordeon__toggle">
+                    <h3 class="h3">Entregas <img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h3>
+                    <div class="accordeon__toggle-sub">
+                        <h4 class="h4">¿Cuanto es el tiempo estimado de entrega?<img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h4>
+                        <p>Esto depende mucho del proyecto, pero por lo regular nos tardamos entre 20 y 25 días</p>
+                    </div>
+                    <div class="accordeon__toggle-sub">
+                        <h4 class="h4">¿Hasta donde dan servicio?<img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h4>
+                        <p>Dentro de toda la peninsula, abarcando Campeche, Quintana Roo y Yucatán</p>
+                    </div>
+                </li>
+                <li class="accordeon__toggle">
+                    <h3 class="h3">Maderas <img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h3>
+                    <div class="accordeon__toggle-sub">
+                        <h4 class="h4">¿Con que maderas trabajan? <img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h4>
+                        <p>Sabemos trabajar con cualquier tipo de madera, ya sea dura, prensada o solida (mdf, pino, tzalam, cedro, caobilla, parota y más</p>
+                    </div>
+                    <div class="accordeon__toggle-sub">
+                        <h4 class="h4">¿Le pueden entrar termitas a mis muebles?<img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h4>
+                        <p>No, ya que usamos madera tratada para que no le entren</p>
+                    </div>
+                </li>
+                <li class="accordeon__toggle">
+                    <h3 class="h3">Garantías <img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h3>
+                    <div class="accordeon__toggle-sub">
+                        <h4 class="h4">¿Dan garantía?<img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h4>
+                        <p>Todos nuestros trabajos estan protegidos por una garantía</p>
+                    </div>
+                    <div class="accordeon__toggle-sub">
+                        <h4 class="h4">¿De cuanto tiempo es la garantía?<img class="icon icon--small" src="./assets/svgs/down-arrow.svg" alt="down-arrow"></h4>
+                        <p>Eso depende del proyecto pero como mínimo damos 5 meses</p>
+                    </div>
+                </li>      
+            </ul>
+       </section>
+       <section id="contact" class="section--contact">
+        <div class="contact__text">
+            <header>
+                <h2 class="main">Contacto<br>
+                    <span class="title">Links</span>
+                </h2>
+            </header>
+            <ul class="rss">
+                <li class="rss__link">
+                    <img src="./assets/svgs/social-icons/mail-logo.svg" alt="Correo" class="icon">
+                    <a href="mailto:atalleres@hotmail.com?Subject=Cotización%20de%20trabajo">Atalleres@hotmail.com</a> 
+                </li>
+                <li class="rss__link">
+                    <img src="./assets/svgs/social-icons/facebook-logo.svg" alt="Facebook" class="icon">
+                    <a href="https://www.facebook.com/carpinteriaAT?mibextid=LQQJ4d">Aguilar Talleres</a> 
+                </li>
+                <li class="rss__link">
+                    <img src="./assets/svgs/social-icons/whatssApp-logo.svg" alt="Whatsapp" class="icon">
+                    <p href="">99-92-00-89-35 <br> 99-92-70-06-55</p> 
+                </li>
+                <li class="rss__link">
+                    <img src="./assets/svgs/social-icons/instagram-logo.svg" alt="Instagram" class="icon">
+                    <a href="https://instagram.com/atalleres.mid?igshid=YWJhMjlhZTc=">@atalleres.mid</a> 
+                </li>
+            </ul>
+        </div>
+        
+        <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.391713703798!2d-89.6553619855931!3d21.01700698600473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567468a6b56e7b%3A0xa0cb2d8210216e08!2sAguilar%20Talleres%20Carpinteria%20-%20M%C3%A9rida!5e0!3m2!1ses!2smx!4v1670980614968!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+       </section>
+    </main>
+    <div class="cookies">
+        <img src="./assets/svgs/cookies.svg" alt="cookies ilustracion">
+        <h5 class="main">cookies</h5>
+        <p>Usamos cookies de terceros para personalizar el contenido, anuncios, analizar la actividad de esta web y así darte un mejor servicio/producto</p>
+        <a href="https://www.crehana.com/blog/transformacion-digital/que-son-las-cookies/">conocer más sobre las cookies</a>
+        <button id="accept-cookies" class="button button--cookies">
+            <p class="button__text">aceptar</p>
+        </button>
+        <button id="negate-cookies">
+            <p class="subtitle">negar</p>
+        </button>
+        
+    </div>
+    <div class="cookies-background">
+        <img src="./assets/Logos-AT/aguilar-talleres-logo-cafe.svg" alt="logo aguilar talleres cafe">
+    </div>
+    <footer class="footer"> 
+        <header class="footer__about">
+            <picture class="logo-site logo-site--big">
+                <img src="./assets/Logos-AT/aguilar_talleres_logo.svg" alt="logo Aguilar Talleres">
+            </picture>
+            <h2 class="title">Nosotros</h2>
+            <p class="body-text">Más de 8 años brindando soluciones en madera dentro de toda la peninsula de yucatan, más dentro de la ciudad de mérida</p>
+        </header>
+        <div class="footer__law">
+            <h3 class="subtitle">Legalidad</h3>
+            <ul>
+                <li><a class='body-text' href="#">Términos y condiciones</a></li>
+                <li><a class='body-text' href="#">Aviso de privacidad</a></li>
+                <li><a class='body-text' href="#">Cookies</a></li>
+            </ul>
+        </div>
+        <ul class="footer__social">
+            <li class="icon">
+                <a href="https://www.facebook.com/carpinteriaAT?mibextid=LQQJ4d">
+                    <img  src="./assets/svgs/social-icons/facebook-logo.svg" alt="Facebook">
+                </a>
+            </li>
+            <li class="icon">
+                <a href="https://instagram.com/atalleres.mid?igshid=YWJhMjlhZTc=">
+                    <img  src="./assets/svgs/social-icons/instagram-logo.svg" alt="Instagram">
+                </a>
+            </li>
+        </ul>
+        <p class="body-text">Web hecha por peks</p>
+    </footer>
+</body>
+<script type="text/javascript" src="./js/biblioteca.js"></script>
+    <script type="text/javascript" src="./js/proyects.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</html>

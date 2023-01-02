@@ -1,0 +1,199 @@
+/*Global settings*/
+
+    /*Primary*/
+        /*headers*/
+        .header--main{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            gap: 0;
+        }
+        .header--left{
+            text-align: left;
+        }
+        .header--rigth{
+            text-align: right;
+        }
+        .section--free-height{
+            height: auto;
+            min-height: 100vh;
+        }
+        .section--process{
+            flex-direction: column;
+            height: auto;
+        }
+        .section--contact{
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        /*icons*/
+        .icon--small{
+            width: 8.5rem;
+            height: 5rem;
+        }
+    
+    /*Tipografy*/
+        .main--white{
+            color: var(--color-white);
+        }
+        .title--white{
+            color: var(--color-white);
+        }
+        .body-text--white{
+            color: var(--color-white);
+        }
+        .details--white{
+            color: var(--color-white);
+        }
+        .details--hide{
+            display: none;
+        }
+
+    /*Interactivity*/
+        .button--left{
+            margin: 0 auto 0 0;
+        }
+        .button--cookies{
+            text-transform: uppercase;
+            background-color: var(--color-secundary);
+        }
+
+
+/*Components*/
+
+    /*navbar settings*/
+        .main-nav__links--open{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .main-nav__links a:hover{
+            background: var(--color-greey);
+            color: var(--color-black);
+        }
+
+
+    /*section welcome*/
+       
+
+    /*Gallery*/
+        .filter-button--active{
+            border-bottom: 1rem solid var(--color-black);
+            color: var(--color-black);
+        }
+        .gallery__img-wrapper--hide{
+            display: none;
+            border: 1px solid black;
+        }
+        .arrow--left{
+            transform: rotate(90deg);
+        }
+        .arrow--rigth{
+            transform: rotate(-90deg);
+        }
+    /*ligthbox*/
+        .lightbox--active{
+            display: flex;
+        }
+        .icon--lightbox{
+            padding: 2.5rem;
+            background-color: var(--color-primary);
+            border-radius: 50rem;
+            margin: auto 0 auto auto;
+        }
+        
+    /*woods*/
+        .woods__wrapp--small{
+            width: 55%;
+            margin-right: 20rem;
+        }
+        .woods__wrapp-item-img--small{
+            width: clamp(25rem,5vw,40rem);
+            height: clamp(25rem,5vw,40rem);
+            margin: 0 auto;
+        }
+        .woods__wrapp-item-text--small{
+            font-size: var(--fs-details);
+            color: var(--color-secundary);
+        }
+        /* Slider modal */
+            .slider__modal-container--active{
+                display: flex;
+            }
+
+    /*process steps*/
+    .title--process{
+        font-size: clamp(12.5rem, 6vw, 17rem);
+    }
+    .body-text--process{
+        width: 85%;
+    }
+    .process__step-text--rigth{
+        align-items: flex-end;
+        text-align: right;  
+    }
+
+    /*Proyect slider*/
+    .slider__dotes-item--active{
+        height: 3rem;
+        width: 15rem;
+        background-color: var(--color-greey);
+    }
+    .slider__arrow--left{
+        left: 0;
+        transform: rotate(90deg);
+    }
+    .slider__arrow--right{
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    /*accordeon*/
+    .accordeon__toggle-sub.sub--active p{
+        padding-left: 5%;
+        height: auto;
+    }
+
+    .accordeon__toggle.toggle--active h4{
+        padding: 5rem;
+        height: auto;
+    }
+
+    /*Footer*/
+    .logo-site--big{
+        width: 75rem;
+        height: 75rem;
+    }
+    /*Cookies*/
+    .cookies--active{
+        display: flex;
+    }
+    .cookies-background--active{
+        display: block;
+    }
+
+/*Responsive*/
+
+    /*Small screens*/
+    @media screen and (min-width: 0px) and (max-width: 375px){
+        
+    }
+
+    /*Mobile screen*/
+    @media screen and (min-width: 376px) and (max-width: 768px){
+       
+        
+    }
+
+    /*Tablet screen*/
+    @media screen and (min-width: 769px) and (max-width: 1280px){
+       
+    }
+
+    /*Desktops screen*/
+    @media screen and (min-width: 1281px){
+        .section--contact{
+            justify-content: space-between;
+        }
+    }

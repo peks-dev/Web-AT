@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg75"
+   width="578"
+   height="500"
+   viewBox="0 0 578 500"
+   sodipodi:docname="aguilar_talleres_logo"
+   inkscape:version="1.2.1 (8a69933317, 2022-10-28, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs79" />
+  <sodipodi:namedview
+     id="namedview77"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.62"
+     inkscape:cx="130.64516"
+     inkscape:cy="317.74194"
+     inkscape:window-width="1600"
+     inkscape:window-height="823"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g81" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g81">
+    <path
+       style="fill:#515a45;fill-opacity:1"
+       d="m 110.97911,251.86984 -0.25453,-215.999104 202.25,202.248184 202.25,202.24818 v 13.75092 13.75093 h -16.25387 -16.25386 l -48.49227,-48.5 c -26.67075,-26.675 -48.84794,-48.5 -49.28265,-48.5 -0.4347,0 -0.66144,10.12204 -0.50386,22.49341 l 0.28651,22.49342 -21.75,-21.73489 -21.75,-21.73489 -0.007,-22.50853 -0.007,-22.50852 -18.68776,-18.75 c -10.27826,-10.3125 -18.9375,-18.75041 -19.24274,-18.7509 -0.30524,-5e-4 -0.42965,10.012 -0.27647,22.25 l 0.278,22.2509 -22.02852,-21.99148 -22.02851,-21.99147 v -22.51213 -22.51213 l -51.75357,-51.7464 c -28.46447,-28.46051 -52.08947,-51.74639 -52.5,-51.74639 -0.41054,0 -0.74643,14.55062 -0.74643,32.33471 v 32.33472 l 115,114.87402 115,114.87403 v 15.79126 15.79126 h -15.25189 -15.2519 l -98.99621,-99 c -54.44792,-54.45 -99.33456,-99 -99.74811,-99 -0.41354,0 -0.75189,44.55 -0.75189,99 v 99 H 132.72911 111.23364 Z M 259.22458,431.12747 V 394.386 l 22,21.98295 22,21.98295 v 14.75853 14.75852 h -22 -22 z m 103.25,-165.1856 -21.25,-21.6224 V 161.59421 78.86895 h -19 -19 v 63.80088 63.80088 l -22,-22.0795 -22,-22.07949 V 120.59033 78.86895 H 217.5032 175.78181 l -22.07949,-22 -22.0795,-22 H 323.4237 515.22458 v 22 22 h -65.50915 -65.50915 l 0.25915,104.50006 c 0.14253,57.47503 0.0341,104.43148 -0.24085,104.34766 -0.275,-0.0838 -10.0625,-9.88249 -21.75,-21.7748 z"
+       id="path193" />
+  </g>
+</svg>
