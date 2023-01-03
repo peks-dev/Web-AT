@@ -387,6 +387,14 @@
             cookieBackground.classList.add('cookies-background--active')
         }
 
+        negateCookies.addEventListener('click',()=>{
+            cookieBanner.classList.remove('cookies--active')
+            cookieBackground.classList.remove('cookies-background--active')
+
+            localStorage.setItem('cookies-aceptadas', true)
+            
+        })
+
         
 
 

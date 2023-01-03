@@ -146,6 +146,10 @@ table, tr, td {
   border-spacing: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* Evitamos problemas con los SVG */
 svg {
   width: 100%;

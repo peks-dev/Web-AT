@@ -14,6 +14,7 @@
         .button{
             background-color: var(--color-acent);
             border-radius: 5rem;
+            
         }
         .button:hover{
             background-color: var(--color-primary);
@@ -42,6 +43,11 @@
             font-family: var(--font-secundary);
             font-size: var(--fs-subtitle);
             color: inherit;
+        }
+    /*cookies*/
+        
+        #negate-cookies:hover{
+            transform: scale(1.2);
         }
         
         
