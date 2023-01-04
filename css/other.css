@@ -25,6 +25,8 @@
         .section--contact{
             flex-direction: row;
             flex-wrap: wrap;
+            height: auto;
+            min-height: 100vh;
         }
 
         /*icons*/

@@ -24,7 +24,7 @@
             gap: 30rem;
             height: auto;
         }
-        .logo-site {
+        .logo-site1 {
             display:block;
             width: 20rem;  
         }
@@ -815,6 +815,7 @@
             }
             .footer__law ul li a{
                 text-decoration: underline;
+                color: var(--color-greey);
             }
             .footer__social{
                 display: flex;
@@ -851,6 +852,13 @@
             .main-nav__links{
                 order: 4;
             }
+        /*Footer*/
+            .footer__about h2{
+                order: 4;
+            }
+            .footer__about p{
+                order: 5;
+            }
 }
 
 /*Mobile screen*/
@@ -865,7 +873,7 @@
         .main-nav__burger{
             order: 1;
         }
-        .logo-site{
+        .logo-site1{
             order: 3;
         }
         .main-nav__links{

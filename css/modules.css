@@ -33,8 +33,10 @@
             color: var(--color-greey);
             background: var(--color-acent);
             font-size: var(--fs-subtitle);
-            border-radius: 5rem;
-            
+            border-radius: 5rem;    
+        }
+        .main-nav__button a:hover{
+            background-color: var(--color-primary);
         }
         .main-nav__links li{
             color: var(--color-greey);
@@ -126,6 +128,9 @@
     /*Footer*/
     .footer{
         background-color: var(--color-secundary);
+    }
+    .footer__law p, .footer__law p, .footer__law h3{
+        color: var(--color-white);
     }
 
     

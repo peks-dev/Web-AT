@@ -13,7 +13,13 @@
     }
     #icon-support:hover{    
         transform: scale(1.2);
-
+    }
+    .peks{
+        color: var(--color-greey);
+        cursor: pointer;
+    }
+    .peks:hover{
+        transform: scale(1.3);
     }
 
     
