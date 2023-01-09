@@ -21,5 +21,8 @@
     .peks:hover{
         transform: scale(1.3);
     }
+    #proyect-name{
+        text-align: center;
+    }
 
     
